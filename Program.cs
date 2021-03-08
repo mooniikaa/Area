@@ -17,18 +17,18 @@ namespace Area
                 Console.WriteLine("2 Circle");
             Console.WriteLine("3 Exit");
 
-            rectangle Rectangle = new rectangle();
+            Rectangle rectangle = new Rectangle();
                 Circle circle = new Circle();
                 num = int.Parse(Console.ReadLine());
                          
                     if (num == 1)
                     {
                     Console.Write("A ");
-                    Rectangle.A = double.Parse(Console.ReadLine());
+                    rectangle.A = double.Parse(Console.ReadLine());
                     Console.Write("B ");
-                    Rectangle.B = double.Parse(Console.ReadLine());
-                    Console.WriteLine("P = " + (Rectangle.A + Rectangle.B) * 2);
-                    Console.WriteLine("S = " + Rectangle.A * Rectangle.B);
+                    rectangle.B = double.Parse(Console.ReadLine());
+                    Console.WriteLine("P = " + (rectangle.A + rectangle.B) * 2);
+                    Console.WriteLine("S = " + rectangle.A * rectangle.B);
                 }
                 if (num == 2)
                 {
