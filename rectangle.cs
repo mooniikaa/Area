@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Area
 {
-    class rectangle
+    class Rectangle
     {
        
         private double a;
