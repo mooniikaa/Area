@@ -10,7 +10,7 @@ namespace Area
     {
         static void Main(string[] args)
         {
-            int num;
+            int num = int.Parse(Console.ReadLine());
             do
             {
             Console.WriteLine("1 Rectangle");
@@ -19,7 +19,7 @@ namespace Area
 
             Rectangle rectangle = new Rectangle();
                 Circle circle = new Circle();
-                num = int.Parse(Console.ReadLine());
+                
                          
                     if (num == 1)
                     {
