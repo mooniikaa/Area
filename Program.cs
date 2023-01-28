@@ -10,12 +10,12 @@ namespace Area
     {
         static void Main(string[] args)
         {
-            int num = int.Parse(Console.ReadLine());
-            do
-            {
             Console.WriteLine("1 Rectangle");
                 Console.WriteLine("2 Circle");
             Console.WriteLine("3 Exit");
+            int num = int.Parse(Console.ReadLine());
+            do
+            {        
 
             Rectangle rectangle = new Rectangle();
                 Circle circle = new Circle();
